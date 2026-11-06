@@ -1,0 +1,8 @@
+# Python 3.14 testé. Pour figer les versions exactes de votre environnement :
+#   pip freeze > requirements-lock.txt
+streamlit
+chromadb
+sentence-transformers
+ollama
+datasets
+pytest

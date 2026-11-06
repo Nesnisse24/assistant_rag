@@ -1,0 +1,397 @@
+[
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée du préavis en cas de démission ?",
+  "attendus": [
+   "L1237-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Combien de jours de congés payés acquiert-on par mois de travail ?",
+  "attendus": [
+   "L3141-3"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée maximale de la période d'essai d'un CDI pour un cadre ?",
+  "attendus": [
+   "L1221-19"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Une période d'essai peut-elle être renouvelée ?",
+  "attendus": [
+   "L1221-21"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée légale du travail par semaine ?",
+  "attendus": [
+   "L3121-27"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée maximale de travail par jour ?",
+  "attendus": [
+   "L3121-18"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée maximale de travail par semaine ?",
+  "attendus": [
+   "L3121-20",
+   "L3121-22"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Combien d'heures de repos minimum entre deux journées de travail ?",
+  "attendus": [
+   "L3131-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Comment sont majorées les heures supplémentaires ?",
+  "attendus": [
+   "L3121-36",
+   "L3121-33"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée maximale d'un CDD ?",
+  "attendus": [
+   "L1242-8"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Dans quels cas peut-on conclure un CDD ?",
+  "attendus": [
+   "L1242-2"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "À combien s'élève la prime de précarité d'un CDD ?",
+  "attendus": [
+   "L1243-8"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Comment fonctionne la rupture conventionnelle ?",
+  "attendus": [
+   "L1237-11",
+   "L1237-12",
+   "L1237-13"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quel est le délai de rétractation après une rupture conventionnelle ?",
+  "attendus": [
+   "L1237-13"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Comment se déroule l'entretien préalable au licenciement ?",
+  "attendus": [
+   "L1232-2",
+   "L1232-3"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "La lettre de licenciement doit-elle être motivée ?",
+  "attendus": [
+   "L1232-6"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Qu'est-ce qu'un licenciement pour motif économique ?",
+  "attendus": [
+   "L1233-3"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée du congé maternité ?",
+  "attendus": [
+   "L1225-17"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée du congé de paternité ?",
+  "attendus": [
+   "L1225-35"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Qu'est-ce que le harcèlement moral au travail ?",
+  "attendus": [
+   "L1152-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Qu'est-ce que le harcèlement sexuel au travail ?",
+  "attendus": [
+   "L1153-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quels sont les motifs de discrimination interdits ?",
+  "attendus": [
+   "L1132-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Le 1er mai est-il obligatoirement chômé ?",
+  "attendus": [
+   "L3133-4"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quels sont les jours fériés légaux ?",
+  "attendus": [
+   "L3133-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "À partir de quelle heure le travail est-il considéré comme du travail de nuit ?",
+  "attendus": [
+   "L3122-2"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée minimale hebdomadaire d'un contrat à temps partiel ?",
+  "attendus": [
+   "L3123-27"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "À partir de quel effectif doit-on mettre en place un CSE ?",
+  "attendus": [
+   "L2311-2"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée de la période d'essai d'un CDD ?",
+  "attendus": [
+   "L1242-10"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Qu'est-ce que le congé parental d'éducation ?",
+  "attendus": [
+   "L1225-47"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Que doit faire l'employeur en cas d'inaptitude non professionnelle ?",
+  "attendus": [
+   "L1226-2",
+   "L1226-2-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Qu'est-ce que le solde de tout compte ?",
+  "attendus": [
+   "L1234-20"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "L'employeur doit-il remettre un certificat de travail à la fin du contrat ?",
+  "attendus": [
+   "L1234-19"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Qu'est-ce qu'une astreinte ?",
+  "attendus": [
+   "L3121-9"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Un employeur peut-il licencier une salariée enceinte ?",
+  "attendus": [
+   "L1225-4"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quel est le délai pour contester un licenciement ?",
+  "attendus": [
+   "L1471-1"
+  ]
+ },
+ {
+  "cat": "rag",
+  "question": "Quelle est la durée du travail des jeunes de moins de 18 ans ?",
+  "attendus": [
+   "L3162-1"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "J'ai 5 ans d'ancienneté et un salaire de 2000 euros brut, quelle indemnité de licenciement ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "2500"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Licencié après 12 ans dans l'entreprise avec 3000 euros brut par mois, quelle indemnité légale ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "9500"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "4 ans et 6 mois d'ancienneté, salaire brut de 2400 euros, combien d'indemnité de licenciement ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "2700"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Quelle indemnité de licenciement pour 7 mois d'ancienneté et 1800 euros brut ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "montant:0.0",
+   "0€",
+   "0euro"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "15 ans d'ancienneté, 2500 euros brut par mois : quelle indemnité de licenciement ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "10416,67",
+   "10416.67"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Exactement 10 ans d'ancienneté et 1800 euros brut, quelle indemnité de licenciement ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "4500"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Inaptitude professionnelle, 10 ans d'ancienneté, 2000 euros brut : quelle indemnité de licenciement ?",
+  "outil": "calculer_indemnite_licenciement",
+  "contient": [
+   "10000"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Quel préavis pour un licenciement après 3 ans dans l'entreprise ?",
+  "outil": "calculer_preavis",
+  "contient": [
+   "mois:2",
+   "2mois"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Quel préavis de licenciement après 1 an d'ancienneté ?",
+  "outil": "calculer_preavis",
+  "contient": [
+   "mois:1",
+   "1mois"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Quel préavis de licenciement après 4 mois d'ancienneté ?",
+  "outil": "calculer_preavis",
+  "contient": [
+   "mois:none",
+   "minimumlégal",
+   "conventioncollective"
+  ]
+ },
+ {
+  "cat": "calcul",
+  "question": "Quel est mon préavis de démission après 2 ans dans l'entreprise ?",
+  "outil": "calculer_preavis",
+  "contient": [
+   "mois:none",
+   "minimumlégal",
+   "conventioncollective"
+  ]
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Quelle est la recette de la tarte aux pommes ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Quel temps fera-t-il demain à Paris ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Qui a gagné la Coupe du monde de football en 2018 ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Comment installer Python sur Windows ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Quelle est la capitale de l'Australie ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Comment calculer mon impôt sur le revenu ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Donne-moi un conseil pour perdre du poids."
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Comment divorcer à l'amiable ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Quel est le meilleur smartphone en 2026 ?"
+ },
+ {
+  "cat": "hors_sujet",
+  "question": "Explique-moi la théorie de la relativité."
+ }
+]

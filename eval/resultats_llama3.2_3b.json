@@ -1,0 +1,474 @@
+[
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée légale du travail par semaine ?",
+    "reponse": "La durée légale du travail par semaine est de 35 heures pour les salariés à temps complet, selon l'article L3121-27 du Code du travail. Cependant, il est important de noter que les conventions ou les accords collectifs d'entreprise ou d'établissement peuvent fixer une période de sept jours consécutifs constituant la semaine pour l'application du présent chapitre, selon l'article L3121-32. De plus, il est interdit de faire travailler un même salarié plus de six jours par semaine, selon l'article L3132-1.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [
+      "L3121-27",
+      "L3121-32",
+      "L3132-1"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.11,
+    "duree_s": 71.2,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": true,
+    "citations_valides": true,
+    "ok": true
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée maximale de travail effectif par jour ?",
+    "reponse": "La durée maximale de travail effectif par jour est de 10 heures, sauf en cas de dérogation accordée par l'inspecteur du travail ou en cas d'urgence, dans des conditions déterminées par décret.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.101,
+    "duree_s": 56.2,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée maximale hebdomadaire de travail ?",
+    "reponse": "La durée maximale hebdomadaire de travail est de 48 heures.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.084,
+    "duree_s": 49.9,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quel est le repos quotidien minimal entre deux journées de travail ?",
+    "reponse": "La durée minimale du repos quotidien des salariés est de 11 heures consécutives, sauf dans les cas prévus aux articles L. 3131-2 et L. 3131-3 ou en cas d'urgence, dans des conditions déterminées par décret.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [
+      "L3131-2",
+      "L3131-3"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.104,
+    "duree_s": 43.6,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": true,
+    "ok": true
+  },
+  {
+    "cat": "rag",
+    "question": "Combien de jours de congés payés par mois de travail ?",
+    "reponse": "Selon l'article L. 3141-3 du Code du travail, le salarié a droit à un congé de deux jours et demi ouvrables par mois de travail effectif chez le même employeur. La durée totale du congé exigible ne peut excéder trente jours ouvrables.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [
+      "L3141-3"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.121,
+    "duree_s": 43.4,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": true,
+    "citations_valides": true,
+    "ok": true
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée de la période d'essai pour un CDI ?",
+    "reponse": "La durée de la période d'essai pour un CDI est de trois mois.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.08,
+    "duree_s": 34.8,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quel est le délai de rétractation après la signature d'une rupture conventionnelle ?",
+    "reponse": "Selon l'article L. 1237-13 du Code du travail, le délai de rétractation après la signature d'une rupture conventionnelle est de quinze jours calendaires.",
+    "outils": [
+      "rag_direct"
+    ],
+    "cites": [
+      "L1237-13"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.098,
+    "duree_s": 65.3,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": true,
+    "citations_valides": true,
+    "ok": true
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée maximale d'un CDD ?",
+    "reponse": "La durée maximale d'un CDD est de 24 mois.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.09,
+    "duree_s": 48.4,
+    "hit5": false,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée du préavis en cas de démission ?",
+    "reponse": "La durée du préavis en cas de démission est fixée par la loi, la convention ou l'accord collectif, ou à défaut par les usages. Consultez votre convention collective.\n\nRésultat du calcul (source : outil) : mois : None; article : L1237-1; detail : Durée fixée par la loi, la convention ou l'accord collectif, ou à défaut par les usages. Consultez votre convention collective.",
+    "outils": [
+      "calculer_preavis"
+    ],
+    "cites": [
+      "L1237-1"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.098,
+    "duree_s": 9.0,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": true,
+    "citations_valides": true,
+    "ok": true
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la majoration des heures supplémentaires ?",
+    "reponse": "Selon l'article L3121-36 du Code du travail, les heures supplémentaires accomplies au-delà de la durée légale hebdomadaire fixée à l'article L. 3121-27 ou de la durée considérée comme équivalente donnent lieu à une majoration de salaire de 25 % pour chacune des huit premières heures supplémentaires. Les heures suivantes donnent lieu à une majoration de 50 %.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [
+      "L3121-27",
+      "L3121-36"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.108,
+    "duree_s": 104.6,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": true,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle est la durée du congé de maternité ?",
+    "reponse": "La durée du congé de maternité est de 16 à 26 semaines, selon les cas.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.1,
+    "duree_s": 65.7,
+    "hit5": false,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quelle indemnité de fin de contrat est due au salarié en CDD ?",
+    "reponse": "L'indemnité de fin de contrat est due au salarié en CDD et est égale à 10 % de la rémunération totale brute versée au salarié. Cette indemnité est versée à l'issue du contrat en même temps que le dernier salaire et figure sur le bulletin de salaire correspondant.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.101,
+    "duree_s": 58.0,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Quel délai doit séparer la convocation de l'entretien préalable au licenciement ?",
+    "reponse": "Selon l'article L. 1233-11 du Code du travail, le délai entre la convocation de l'entretien préalable au licenciement et la date de l'entretien lui-même doit être de au moins 5 jours ouvrables.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [
+      "L1233-11"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.084,
+    "duree_s": 53.2,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": true,
+    "ok": true
+  },
+  {
+    "cat": "rag",
+    "question": "Combien de jours de congé un salarié a-t-il pour son mariage ?",
+    "reponse": "Le salarié a droit à un congé de 4 jours ouvrables pour son mariage.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.116,
+    "duree_s": 59.1,
+    "hit5": true,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "rag",
+    "question": "Dans quels cas un employeur peut-il conclure un CDD ?",
+    "reponse": "Un employeur peut conclure un CDD (Contrat de Travail à Durée Déterminée) dans les cas suivants :\n\n1. Au titre de dispositions légales destinées à favoriser le recrutement de certaines catégories de personnes sans emploi.\n2. Lorsque l'employeur s'engage à assurer un complément de formation professionnelle au salarié.\n3. Lorsque l'employeur confie des activités de recherche au salarié et participe à sa formation à la recherche et par la recherche.\n4. Lorsque l'employeur confie au salarié, dans les conditions fixées à l'article L. 431-5 du code de la recherche, des activités de recherche en vue de la réalisation d'un objet défini et qu'il s'engage à fournir au salarié une expérience professionnelle complémentaire au diplôme de doctorat prévu à l'article L. 612-7 du code de l'éducation.\n5. Pour faciliter le retour à l'emploi d'un salarié âgé de plus de 57 ans inscrit depuis plus de trois mois comme demandeur d'emploi ou bénéficiant d'une convention de reclassement personnalisé.\n6. A l'issue d'un contrat d'apprentissage, lorsque l'apprenti doit satisfaire aux obligations du service national dans un délai de moins d'un an après l'expiration du contrat d'apprentissage.\n7. Pour une durée maximale de 18 mois pour les contrats de retour à l'emploi des salariés âgés, et 36 mois pour les contrats de retour à l'emploi des salariés âgés, renouvelables une fois.\n\nIl est important de noter que ces cas sont soumis à certaines conditions et que l'employeur doit s'assurer de respecter les règles et les réglementations en vigueur.",
+    "outils": [
+      "chercher_code_travail"
+    ],
+    "cites": [],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.092,
+    "duree_s": 95.3,
+    "hit5": false,
+    "refus_a_tort": false,
+    "article_attendu_cite": false,
+    "citations_valides": false,
+    "ok": false
+  },
+  {
+    "cat": "calcul",
+    "question": "J'ai 10 ans d'ancienneté et un salaire de référence de 2500 euros brut, quelle est mon indemnité légale de licenciement ?",
+    "reponse": "Selon le Code du travail, votre indemnité légale de licenciement est de 6 250 euros, calculée sur 10 ans d'ancienneté et un salaire de référence de 2 500 euros brut par mois.\n\nRésultat du calcul (source : outil) : montant : 6250.0; mois_de_salaire : 2.5; articles : ['L1234-9', 'R1234-2']; detail : 10.00 an(s) x 1/4 + 0.00 an(s) x 1/3 = 2.50 mois x 2500.0 EUR",
+    "outils": [
+      "calculer_indemnite_licenciement"
+    ],
+    "cites": [
+      "L1234-9",
+      "R1234-2"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.114,
+    "duree_s": 14.2,
+    "bon_outil": true,
+    "bonne_valeur": true,
+    "ok": true
+  },
+  {
+    "cat": "calcul",
+    "question": "Avec 15 ans d'ancienneté et un salaire de référence de 3000 euros brut, combien vais-je toucher d'indemnité de licenciement ?",
+    "reponse": "Selon le Code du travail, votre indemnité de licenciement serait de 12 500 euros, calculée en fonction de 10 ans d'ancienneté et 5 ans de salaire mensuel brut.\n\nRésultat du calcul (source : outil) : montant : 12500.0; mois_de_salaire : 4.1667; articles : ['L1234-9', 'R1234-2']; detail : 10.00 an(s) x 1/4 + 5.00 an(s) x 1/3 = 4.17 mois x 3000.0 EUR",
+    "outils": [
+      "calculer_indemnite_licenciement"
+    ],
+    "cites": [
+      "L1234-9",
+      "R1234-2"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.11,
+    "duree_s": 24.1,
+    "bon_outil": true,
+    "bonne_valeur": true,
+    "ok": true
+  },
+  {
+    "cat": "calcul",
+    "question": "Je suis dans l'entreprise depuis 3 ans et je gagne 2400 euros brut par mois, quelle indemnité de licenciement ?",
+    "reponse": "Selon le Code du travail, votre indemnité de licenciement est de 1 800 euros, calculée sur la base de 3 ans d'ancienneté et de 2400 euros de salaire brut mensuel.\n\nRésultat du calcul (source : outil) : montant : 1800.0; mois_de_salaire : 0.75; articles : ['L1234-9', 'R1234-2']; detail : 3.00 an(s) x 1/4 + 0.00 an(s) x 1/3 = 0.75 mois x 2400.0 EUR",
+    "outils": [
+      "calculer_indemnite_licenciement"
+    ],
+    "cites": [
+      "L1234-9",
+      "R1234-2"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.104,
+    "duree_s": 23.8,
+    "bon_outil": true,
+    "bonne_valeur": true,
+    "ok": true
+  },
+  {
+    "cat": "calcul",
+    "question": "Calcule mon indemnité légale de licenciement : 20 ans d'ancienneté, salaire de référence 2500 euros brut.",
+    "reponse": "Votre indemnité légale de licenciement est de 14 583,33 euros. Votre ancien régime est de 10 ans et 5 mois.\n\nRésultat du calcul (source : outil) : montant : 14583.33; mois_de_salaire : 5.8333; articles : ['L1234-9', 'R1234-2']; detail : 10.00 an(s) x 1/4 + 10.00 an(s) x 1/3 = 5.83 mois x 2500.0 EUR",
+    "outils": [
+      "calculer_indemnite_licenciement"
+    ],
+    "cites": [
+      "L1234-9",
+      "R1234-2"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.114,
+    "duree_s": 22.9,
+    "bon_outil": true,
+    "bonne_valeur": true,
+    "ok": true
+  },
+  {
+    "cat": "calcul",
+    "question": "Mon ancienneté est d'un an, quel est mon préavis en cas de licenciement ?",
+    "reponse": "Selon l'article L1234-1 du Code du travail, en cas de licenciement, vous avez droit à un préavis de 1 mois, soit 1 mois.\n\nRésultat du calcul (source : outil) : mois : 1; article : L1234-1; detail : Entre 6 mois et 2 ans d'ancienneté : 1 mois.",
+    "outils": [
+      "calculer_preavis"
+    ],
+    "cites": [
+      "L1234-1"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.109,
+    "duree_s": 20.7,
+    "bon_outil": true,
+    "bonne_valeur": true,
+    "ok": true
+  },
+  {
+    "cat": "calcul",
+    "question": "J'ai 4 ans d'ancienneté, quelle est la durée de mon préavis de licenciement ?",
+    "reponse": "Selon l'article L1234-1 du Code du travail, pour un licenciement pour motif récurrent, la durée du préavis est de 2 mois pour un salarié ayant 2 ans d'ancienneté ou plus.\n\nRésultat du calcul (source : outil) : mois : 2; article : L1234-1; detail : 2 ans d'ancienneté ou plus : 2 mois.",
+    "outils": [
+      "calculer_preavis"
+    ],
+    "cites": [
+      "L1234-1"
+    ],
+    "refus": false,
+    "refus_par_seuil": false,
+    "distance_top1": 0.106,
+    "duree_s": 22.9,
+    "bon_outil": true,
+    "bonne_valeur": true,
+    "ok": true
+  },
+  {
+    "cat": "hors_sujet",
+    "question": "Quelle est la recette de la tarte aux pommes ?",
+    "reponse": "Je ne trouve pas cette information dans les articles du Code du travail dont je dispose.",
+    "outils": [],
+    "cites": [],
+    "refus": true,
+    "refus_par_seuil": true,
+    "distance_top1": 0.2,
+    "duree_s": 0.1,
+    "ok": true
+  },
+  {
+    "cat": "hors_sujet",
+    "question": "Quelle est la capitale de l'Australie ?",
+    "reponse": "Je ne trouve pas cette information dans les articles du Code du travail dont je dispose.",
+    "outils": [],
+    "cites": [],
+    "refus": true,
+    "refus_par_seuil": true,
+    "distance_top1": 0.241,
+    "duree_s": 0.1,
+    "ok": true
+  },
+  {
+    "cat": "hors_sujet",
+    "question": "Qui a gagné la Coupe du monde de football en 2018 ?",
+    "reponse": "Je ne trouve pas cette information dans les articles du Code du travail dont je dispose.",
+    "outils": [],
+    "cites": [],
+    "refus": true,
+    "refus_par_seuil": true,
+    "distance_top1": 0.242,
+    "duree_s": 0.1,
+    "ok": true
+  },
+  {
+    "cat": "hors_sujet",
+    "question": "Comment installer Python sur Windows ?",
+    "reponse": "Je ne trouve pas cette information dans les articles du Code du travail dont je dispose.",
+    "outils": [],
+    "cites": [],
+    "refus": true,
+    "refus_par_seuil": true,
+    "distance_top1": 0.217,
+    "duree_s": 0.1,
+    "ok": true
+  },
+  {
+    "cat": "hors_sujet",
+    "question": "Quel est le taux de TVA normal en France ?",
+    "reponse": "Je ne trouve pas cette information dans les articles du Code du travail dont je dispose.",
+    "outils": [],
+    "cites": [],
+    "refus": true,
+    "refus_par_seuil": true,
+    "distance_top1": 0.18,
+    "duree_s": 0.1,
+    "ok": true
+  },
+  {
+    "cat": "hors_sujet",
+    "question": "Donne-moi une recette de crêpes.",
+    "reponse": "Je ne trouve pas cette information dans les articles du Code du travail dont je dispose.",
+    "outils": [],
+    "cites": [],
+    "refus": true,
+    "refus_par_seuil": true,
+    "distance_top1": 0.176,
+    "duree_s": 0.0,
+    "ok": true
+  }
+]
